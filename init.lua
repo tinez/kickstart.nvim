@@ -652,6 +652,13 @@ require('lazy').setup({
             },
           },
         },
+        ruff = {
+          init_options = {
+            settings = {
+              logLevel = 'debug',
+            },
+          },
+        },
       }
 
       -- Ensure the servers and tools above are installed
